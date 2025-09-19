@@ -9,7 +9,7 @@ app.use(express.text());
 
 //=====testing endpoint=====//
 app.get("/", (req, res) => {
-  res.send("Welcome");
+  res.send("Welcome hello");
 });
 //--mai iss code mai cicd implement kruga--//
 
